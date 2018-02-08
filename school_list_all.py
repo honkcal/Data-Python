@@ -13,7 +13,7 @@ if __name__ == '__main__':
     try:
 
         print("connection build")
-        conn = pyodbc.connect(r'DRIVER={SQL Server Native Client 10.0};SERVER=118.31.45.23;DATABASE=University;UID=honkcal;PWD=huang123')
+        conn = pyodbc.connect(r'DRIVER={SQL Server Native Client 10.0};SERVER=;DATABASE=;UID=;PWD=')
         cursor = conn.cursor()
         print("connection build111")
 
